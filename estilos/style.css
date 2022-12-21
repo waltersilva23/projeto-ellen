@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#foto-inicial {
+    display: block;
+    background: url(../imagens/foto-inicial.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
