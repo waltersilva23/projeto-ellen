@@ -21,7 +21,8 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(45deg, #f4f0e7, #9d938a);
+    /*background: linear-gradient(45deg, #f4f0e7, #9d938a);*/
+    background-color: #9d938a; /*teste*/
     overflow-y: hidden;
 }
 
@@ -41,11 +42,11 @@ div#card {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 350px;
+    /*width: 350px;
     height: 90vh;
     background-color: #9d938a;
     box-shadow: 0px 0px 10px #000000;
-    border-radius: 20px;
+    border-radius: 20px;*/
 }
 
 #foto-inicial {
