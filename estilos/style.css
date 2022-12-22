@@ -1,3 +1,15 @@
+/*
+#f4f0e7 quase branco
+#9d938a chumbo
+#cb8087 rosa
+#c94b54 vinho?
+*/
+
+
+
+
+
+
 @charset "UTF-8";
 
 *{
@@ -6,11 +18,60 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #f4f0e7, #9d938a);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 350px;
+    height: 550px;
+    background-color: #cb8087;
+}
+
 #foto-inicial {
     display: block;
     background: url(../imagens/foto-inicial.jpg) no-repeat;
     background-size: cover;
     height: 200px;
     width: 200px;
+    margin: 50px 0px 40px 0px;
     border-radius: 100%;
 }
+
+section#home > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section#home > nav > ul{
+    list-style-type: none;
+}
+
+section#home > nav > ul > li {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #00000040;
+    width: 250px;
+}
+
+section#home > nav > ul > li:hover {
+    border-bottom: 2px solid #000000;
+}
+
+section#home > nav > ul > li> a {
+    text-decoration: none;
+    color: #000000;
+}
+
