@@ -6,10 +6,6 @@
 */
 
 
-
-
-
-
 @charset "UTF-8";
 
 *{
@@ -21,8 +17,8 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    /*background: linear-gradient(45deg, #f4f0e7, #9d938a);*/
-    background-color: #9d938a; /*teste*/
+    background: linear-gradient(45deg, #f4f0e7, #9d938a);
+    /*background-color: #9d938a; /*teste*/
     overflow-y: hidden;
 }
 
@@ -33,7 +29,7 @@ main {
 
 section#home {
     display: flex;
-    align-items: center;
+    
     height: 100vh;
 }
 
@@ -42,11 +38,12 @@ div#card {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /*width: 350px;
-    height: 90vh;
+    margin-top: 10px;
+    height: 95vh;
+    width: 350px;
     background-color: #9d938a;
     box-shadow: 0px 0px 10px #000000;
-    border-radius: 20px;*/
+    border-radius: 20px;
 }
 
 #foto-inicial {
@@ -61,7 +58,7 @@ div#card {
 div#card > h1 {
     text-align: center;
     padding: 30px;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 div#card > nav > ul{
