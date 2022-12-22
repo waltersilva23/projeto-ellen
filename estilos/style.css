@@ -42,7 +42,7 @@ div#card {
     align-items: center;
     flex-direction: column;
     width: 350px;
-    height: 550px;
+    height: 90vh;
     background-color: #9d938a;
 }
 
@@ -52,7 +52,7 @@ div#card {
     background-size: cover;
     height: 200px;
     width: 200px;
-    margin: 50px 0px 40px 0px;
+    margin: 20px 0px 40px 0px;
     border-radius: 100%;
 }
 
