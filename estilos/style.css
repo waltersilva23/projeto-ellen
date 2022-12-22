@@ -38,8 +38,8 @@ div#card {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10px;
-    height: 95vh;
+    margin: 10px 0px 10px 0px;
+    height: 90vh;
     width: 350px;
     background-color: #9d938a;
     box-shadow: 0px 0px 10px #000000;
