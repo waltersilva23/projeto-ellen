@@ -20,10 +20,11 @@ html, body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top, #f4f0e7, #9d938a) no-repeat;
+    background-color: #000000;
+    /*background: linear-gradient(to top, #f4f0e7, #9d938a) no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    /*overflow-y: hidden;*/
+    background-attachment: fixed;*/
+    
 }
 
 main {
@@ -46,9 +47,9 @@ div#card {
     flex-direction: column;
     margin: 20px 0px 20px 0px;
     height: 500px;
-    width: 350px;
+    width: 300px;
     background-color: #9d938a;
-    box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 20px #cb8087;
     border-radius: 20px;
 }
 
