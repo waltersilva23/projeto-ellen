@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@media screen and (min-height: 600px) {
+    div#card {
+        height: 90vh;
+    }
+}
