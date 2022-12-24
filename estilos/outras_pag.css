@@ -14,6 +14,10 @@
     font-weight: normal;
 }
 
+html, body {
+    background-color: #f4f0e7;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -38,10 +42,11 @@ nav > a {
     text-decoration: none;
     font-size: 1.5em;
     font-family: 'Kurale', serif;
-    background-color: #ffffff;
+    background-color: #f4f0e7;
     color: #000000;
     padding: 0px 5px 0px 5px;
     border-radius: 5px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
 }
 
 nav > a:hover {
@@ -54,27 +59,35 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #f4f0e7;
 }
 
-section > p {
-    
-    text-align: center;
-    color: #000000;
-    width: 300px;
-    padding: 30px
-}
-
-section.imagem {
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
-    background-attachment: fixed;
-}
-
-section#img01 {
-    display: block;
-    margin-top: 50px;
-    width: 90vw;
-    height: 400px;
+div#foto-sobre {
     background-image: url(../imagens/sobre.jpeg);
-    background-position: center top;
+    background-size: cover;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid #cb8087;
 }
+
+section.texto-sobre  {
+    margin-bottom: 30px;
+}
+
+section.texto-sobre > h1 {
+    text-align: center;
+    font-family: 'Athene', serif;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+section.texto-sobre > p {
+    font-family: 'Kurale', serif;
+    text-align: justify;
+    padding: 5px;
+    margin: 0px 20px;
+}
+
+
