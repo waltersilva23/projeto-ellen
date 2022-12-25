@@ -34,12 +34,6 @@ div#logo {
     width: 169px;
 }
 
-div#transicao {
-    background: linear-gradient(to top, #f4f0e7, #9d938a);
-    height: 50px;
-    width: 100vw;
-}
-
 nav {
     width: 90vw;
     margin: 10px;
@@ -66,7 +60,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #f4f0e7;
+    background: linear-gradient(to top, #ffffff, #f4f0e7, #9d938a);
     overflow-x: hidden;
 }
 
